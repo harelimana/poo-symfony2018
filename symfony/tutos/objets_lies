@@ -1,0 +1,6 @@
+{% for album in c.albums %}
+                <ul>
+                    <li>{{ album.title }}</li>
+                </ul>
+            {% endfor %}
+
